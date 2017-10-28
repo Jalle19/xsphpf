@@ -48,7 +48,9 @@ class PlaylistTest extends TestCase
               ->setDuration(300)
               ->setImage('http://example.com/image.jpeg');
 
-        $playlist = new Playlist([$track]);
+        // Use addTrack() to check that one works too
+        $playlist = new Playlist();
+        $playlist->addTrack($track);
 
         $this->assertXmlStringEqualsXmlFile(__DIR__ . '/../resources/playlist_tracks_additional_elements.xml',
             $playlist->__toString());
