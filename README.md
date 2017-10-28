@@ -4,6 +4,7 @@ A minimal library for creating XSPF playlists.
 
 [![Build Status](https://travis-ci.org/Jalle19/xsphpf.svg?branch=master)](https://travis-ci.org/Jalle19/xsphpf)
 [![Coverage Status](https://coveralls.io/repos/github/Jalle19/xsphpf/badge.svg?branch=master)](https://coveralls.io/github/Jalle19/xsphpf?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Jalle19/xsphpf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Jalle19/xsphpf/?branch=master)
 
 ## Requirements
 
