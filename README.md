@@ -28,8 +28,8 @@ $track = new Jalle19\xsphpf\Track('http://example.com/song_1.mp3');
 
 // Define some optional attributes for the track
 $track->setTitle('Some fancy title')
-	  ->setDuration(300)
-	  ->setImage('http://example.com/image.jpeg');
+      ->setDuration(300)
+      ->setImage('http://example.com/image.jpeg');
 
 // Add the track to the playlist
 $playlist->addTrack($track);
