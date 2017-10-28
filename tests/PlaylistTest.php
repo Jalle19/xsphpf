@@ -43,8 +43,10 @@ class PlaylistTest extends TestCase
      */
     public function testTracksWithAdditionalElements()
     {
-        $track = new Track('http://example.com/song_1.mp3');
-        $track->setTitle('Some fancy title')
+        // Override the location so we know that works too
+        $track = new Track('not the final URL');
+        $track->setLocation('http://example.com/song_1.mp3')
+              ->setTitle('Some fancy title')
               ->setDuration(300)
               ->setImage('http://example.com/image.jpeg');
 
